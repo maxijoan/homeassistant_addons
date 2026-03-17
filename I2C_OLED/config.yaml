@@ -46,8 +46,8 @@ options:
   Show_Memory_Screen: true
   Show_Storage_Screen: true
 
-  Welcome_Screen_Text: "Welcome to {hostname}"
-  Static_Screen_Text: "Hassio verion {hassio.os.version} on {hostname} with IP {ip}"
+  Welcome_Screen_Text: "Bienvenido a {hostname}"
+  Static_Screen_Text: "Hassio ver. {hassio.os.version} on {hostname} with IP {ip}"
   Graceful_Exit_Text: "Exited at {datetime}"
 
   Default_Duration: 10
@@ -55,7 +55,7 @@ options:
   DateTime_Format: "%d/%m/%Y %H:%M:%S"
   Static_Screen_Text_NoScroll: false
   Temperature_Unit: "C"
-  Rotate: 0
+  Rotate: 2
 
   Welcome_Screen_Duration: 5
   Welcome_Screen_Limit: 2
